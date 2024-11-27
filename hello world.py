@@ -1,6 +1,13 @@
 # print("전체 주석 처리는 command / ")
 #pythonTutor >> 코드 분석
 
+#github 에 보내는법
+#1. 터미널을 열고 (맨 처음) git init
+#2. git add.
+#3. git commit -m "first commit"
+#4. git remote add origin https://github.com/hyunchanwi/Python-study.git
+#5. git push origin master
+
 # #하나만 출력합니다.
 # print("#하나만 출력합니다.")
 # print("hello python programming..")
