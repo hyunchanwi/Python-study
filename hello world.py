@@ -7,6 +7,10 @@
 #3. git commit -m "first commit"
 #4. git remote add origin https://github.com/hyunchanwi/Python-study.git
 #5. git push origin master
+#수정 후 다시 업데이트 할 떄
+# git add .
+# git commit -m "수정할 이름"
+# git push origin master
 
 # #하나만 출력합니다.
 # print("#하나만 출력합니다.")
@@ -272,4 +276,51 @@
 # else :
 #     print("몇시인지 물어봐 주십시오")
 
+#11/29일 학습 활동
 
+# numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+# for number in numbers:
+#     if number%2 == 0 :
+#         print(f"{number}은/는 짝수입니다.")
+        
+#     else:
+#         print(f"{number}은/는 홀수입니다.")
+        
+#     print(f"{number}은/는 {len(str(number))}자리입니다.")
+#     print("-"*20)
+#     print()
+    
+# numbers = [1,2,3,4,5,6,7,8,9]
+# output = [[],[],[]]
+# for number in numbers:
+#     output[(number%3) - 1].append(number)
+    
+# print(output)
+
+#딕셔너리와 반복문
+
+# products = {
+#     "제품명":"큐피트의 화살",
+#     "가격": "무량수불",
+#     "사용기한": "30초",
+#     "효과": "상대의 호기심을 유발한다"
+    
+# },{
+#     "제품명":"사랑의 매",
+#     "가격":"무료",
+#     "사용기한":"2일",
+#     "효과":"거짓을 간파한다."
+    
+# }
+
+# for product in products: 
+    
+#     for key in product:
+#         #출력
+#         # print(key)
+#         # print(product[key])
+#         print(key,":", product[key])
+#     print("-"*20)  
+    
+    
+    
